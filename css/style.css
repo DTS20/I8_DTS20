@@ -42,7 +42,7 @@ header .header-list li a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../i8/assets/gambar1.jpg");
+  background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/gambar1.jpg");
   background-size: cover;
   color: white;
 }
