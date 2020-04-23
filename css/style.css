@@ -45,11 +45,22 @@ header .header-list li a {
   background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/gambar1.jpg);
   background-size: cover;
   color: white;
-  text-align: center;
 }
 
 .top-wrapper .container {
   height: 500px;
+}
+
+.top-wrapper .container h1 {
+  width: 786px;
+  height: 112px;
+  padding: 133px 10px 39px 260px;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-wrapper .container span {
+  color: #FFCA0F;
 }
 
 body{
