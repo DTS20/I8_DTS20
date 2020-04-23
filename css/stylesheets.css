@@ -1,6 +1,6 @@
 /* 
 
-DTS Team Project - 8 Bersama:
+DTS Team Project - i8 Bersama:
 
 Sholehudin#3787
 Shendy Pratama Junianto#4349
@@ -9,3 +9,74 @@ alusams1984#5227
 Ryan Nursukmawan#4085
 
 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-teams {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.heading p,
+.team p {
+    color: #C7C7C7;
+}
+
+.teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team img {
+    width: 228px;
+    border-radius: 228px;
+    margin-bottom: 10px;
+    border: 4px solid rgba(154,153,153,0.5);
+    box-shadow: -2px 4px 12px #c7c7c7;
+}
+
+.team p {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .team {
+        width: 261px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .team {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .team img {
+        width: 128px;
+    }
+    
+    .team h3 {
+        font-size: 18px;
+    }
+
+    .team p {
+        font-size: 10px;
+    }
+}
