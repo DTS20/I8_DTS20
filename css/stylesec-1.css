@@ -1,0 +1,62 @@
+h1{
+  color      : #071319;
+  text-align : left;
+  font-size  : 48px;
+  font-family: Roboto;
+  font-style : normal;
+  font-weight:normal;
+  line-height: 56px;
+}
+
+h2{
+  color      : #071319;
+  text-align : left;
+  front-size : 48px;
+  font-family: Roboto;
+  font-style : normal;
+  font-weight: bold;
+  line-height: 56px;
+}
+
+
+p{
+  color      : #071319;
+  text-align : left;
+  front-size : 24px;
+  font-family: Roboto;
+  font-style : normal;
+  font-weight: normal;
+  line-height: 28px;
+}
+
+@media only screen and (max-width:1024px) {
+  .section-1 {
+    width: 100%
+  }
+}
+@media only screen and (max-width:1024px) {
+  .section-1_list {
+    width: 100%
+  }
+}
+@media only screen and (max-width:1024px) {
+  .section-1_desc {
+    width: 100%
+  }
+}
+
+@media only screen and (max-width:414px) {
+  .section-1 {
+    width: 100%
+  }
+}
+@media only screen and (max-width:414px) {
+  .section-1_list {
+    width: 100%
+  }
+}
+@media only screen and (max-width:414px) {
+  .section-1_desc {
+    width: 100%
+  }
+}
