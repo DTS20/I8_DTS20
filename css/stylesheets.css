@@ -60,6 +60,7 @@ Ryan Nursukmawan#4085
     .team {
         width: 261px;
     }
+      
 }
 
 @media only screen and (max-width: 414px) {
@@ -79,4 +80,8 @@ Ryan Nursukmawan#4085
     .team p {
         font-size: 10px;
     }
+
+    
+
+   
 }

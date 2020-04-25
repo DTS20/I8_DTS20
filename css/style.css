@@ -21,23 +21,25 @@ header .header-logo .logo {
   
 }
 
-header .header-list {
-  padding-left: 100px;
-  margin-left: 850px;
-}
-
-header .header-list li {
+header .header-right{
   list-style: none;
-  float: left;
-  padding: 15px 10px;
-  margin-left: 10px;
+  float: right;
+  margin-right: 25px;
   font-size: 24px;
 }
 
-header .header-list li a {
+header .header-right a {
+  padding: 12px 25px;
+  line-height: 65px;
+  float: left;
+  display: block;
   color:#FFCA0F;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
+}
+
+  header .header-right a:hover {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .top-wrapper {
@@ -48,12 +50,11 @@ header .header-list li a {
 }
 
 .top-wrapper .container {
-  height: 500px;
+  height:40%;
 }
 
 .top-wrapper .container h1 {
-  width: 786px;
-  height: 112px;
+  width: 60%;
   padding: 133px 10px 39px 260px;
   font-size: 48px;
   font-family: 'Roboto', sans-serif;
@@ -61,6 +62,17 @@ header .header-list li a {
 
 .top-wrapper .container span {
   color: #FFCA0F;
+}
+
+.menu-icon {
+  color: #FFCA0F;
+  float: right;
+  font-size: 25px;
+  padding-top: 24px;
+  padding-bottom: 21px;
+  padding-right: 15px;
+  padding-left: 0px;
+  display: none;
 }
 
 body{
@@ -106,8 +118,74 @@ body{
     width:100%;
   }
 
+  @media only screen and (max-width: 1024px) {
+    
+    header .header-logo {
+      padding-top: 10px;
+      margin-left: 25px;
+      font-size: 25px;
+    }
+    
+    header .header-right a {
+       font-size: 15px;
+       padding: 12px 15px;
+       line-height: 55px;
+    }
 
+    .top-wrapper {
+        width: 100%;
+        height: auto;
+    }
 
+    .top-wrapper .container {
+        height: auto;
+    }
+
+    .top-wrapper .container h1 {
+        width: 80%;
+        font-size: 28px;
+        padding: 0px 10px 0px 0px;
+        margin-top: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 414px) {
+    header {
+      width: 100%;
+      height: auto;
+  }
+
+  header .header-logo {
+      padding-bottom: 15px;
+      margin-left: 20px;
+      font-size: 28px;
+     
+    }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .header-right {
+    display:none;
+  }
+  
+  .top-wrapper {
+      width: 100%;
+      height: auto;
+  }
+
+  .top-wrapper .container {
+      height: auto;
+  }
+
+  .top-wrapper .container h1 {
+      width: 100%;
+      font-size: 28px;
+      padding: 0px 10px 0px 0px;
+      margin-top: 0px;
+  }
+  }
   
 
 }
