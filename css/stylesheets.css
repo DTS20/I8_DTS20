@@ -10,6 +10,174 @@ Ryan Nursukmawan#4085
 
 */
 
+
+/* Start of Shendy Pratama Junianto#4349 */
+header {
+    background-color: #071319;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.logo {
+    color: #FFCA0F;
+    font-size: 32px;
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+}
+
+.header-list {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.header-list li {
+    padding-right: 50px;
+    list-style: none;
+}
+
+.header-list li:last-child {
+    padding-right: 0px;
+}
+
+.header-list li a {
+    text-decoration: none;
+    color: #FFCA0F;
+    font-size: 18px;
+}
+
+.menu {
+    width: 100%;
+    display: none;
+}
+
+.menu span {
+    display: flex;
+    justify-content: flex-end;
+    color: #FFCA0F;
+}
+
+.background {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/gambar1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.text-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    line-height: 50px;
+    width: 65%;
+}
+
+.text-background h1,
+span {
+    font-size: 48px;
+}
+
+.text-background span {
+    color: #FFCA0F;
+    font-weight: bold;
+}
+
+/* End of Shendy Pratama Junianto#4349 */
+
+/* Start of alusams1984#5227 */
+
+.content {
+    display: flex;
+}
+
+.content .bg-side-left {
+    width: 50%;
+}
+
+.content .txt-side-right {
+    margin-left: 40px;
+}
+
+.txt-side-right h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* End of alusams1984#5227 */
+
+/* Start of Syaeful Fajar#7642 */
+
+.bg-orange {
+    background-color: #FCDB66;
+}
+
+.bg-orange .heading {
+    padding-top: 80px;
+}
+
+.boxs {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    justify-content: space-around;
+}
+
+.box {
+    width: 200px;
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.primary {
+    padding: 15px 40px;
+    background-color: #FFCA0F;
+    cursor: pointer;
+    box-shadow: 0 7px #D8A904;
+}
+
+.primary:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+/* End of Syaeful Fajar#7642 */
+
+/* CSS - Sholehudin#3787 */
+
 * {
     padding: 0;
     margin: 0;
@@ -25,6 +193,10 @@ Ryan Nursukmawan#4085
 .heading {
     text-align: center;
     margin-bottom: 75px;
+}
+
+.heading h1 {
+    font-size: 42px;
 }
 
 .heading p,
@@ -48,7 +220,7 @@ Ryan Nursukmawan#4085
     width: 228px;
     border-radius: 228px;
     margin-bottom: 10px;
-    border: 4px solid rgba(154,153,153,0.5);
+    border: 4px solid rgba(154, 153, 153, 0.5);
     box-shadow: -2px 4px 12px #c7c7c7;
 }
 
@@ -56,13 +228,137 @@ Ryan Nursukmawan#4085
     font-size: 12px;
 }
 
+/* CSS - Sholehudin#3787 */
+
+/* Start of Ryan Nursukmawan#4085 */
+
+footer {
+    background-color: #071319;
+}
+
+.footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.footer p {
+    color: #C7C7C7;
+    opacity: .7;
+    font-size: 12px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.icons li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.icons li>a {
+    text-decoration: none;
+    color: #C7C7C7;
+    transition: ease-in-out .2s;
+}
+
+.icons li>a:hover {
+    color: #FFCA0F;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-github,
+.fa-ellipsis-v {
+    font-size: 24px;
+}
+
+/* End of Ryan Nursukmawan#4085 */
+
 @media only screen and (max-width: 1024px) {
+
+    /* CSS - Sholehudin#3787 */
+
     .team {
         width: 261px;
     }
+
+    /* CSS - Sholehudin#3787 */
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 768px) {
+    
+    /* Start of Shendy Pratama Junianto#4349*/
+
+    .header {
+        height: 60px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .section-teams {
+        margin: 50px auto;
+    }
+
+    .background {
+        height: 500px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .text-background {
+        width: 80%;
+    }
+
+    .text-background h1,
+    span {
+        font-size: 22px
+    }
+
+    /* End of Shendy Pratama Junianto#4349 */
+
+    /* Start of alusams1984#5227 */
+
+    .heading {
+        margin-bottom: 45px;
+    }
+
+    .heading h1 {
+        font-size: 24px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content .bg-side-left {
+        width: 100%;
+    }
+
+    .content .txt-side-right {
+        margin-left: 0;
+    }
+
+    .txt-side-right {
+        padding-top: 10px;
+    }
+
+    /* End of alusams1984#5227 */
+
+    /* CSS - Sholehudin#3787 */
     .team {
         width: 100%;
         margin-bottom: 30px;
@@ -71,7 +367,7 @@ Ryan Nursukmawan#4085
     .team img {
         width: 128px;
     }
-    
+
     .team h3 {
         font-size: 18px;
     }
@@ -79,4 +375,6 @@ Ryan Nursukmawan#4085
     .team p {
         font-size: 10px;
     }
+
+    /* CSS - Sholehudin#3787 */
 }
